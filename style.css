@@ -1,0 +1,41 @@
+.card-text:nth-child(2) {
+    margin-top: 12px;
+}
+
+.card-text:nth-child(3) {
+    margin-top: 32px;
+}
+
+
+
+.card-text+button,
+.card-subtitle+button {
+    margin-top: 32px;
+}
+
+.navbar {
+
+    display: flex;
+    width: 100%;
+    height: 56px;
+    padding: 12px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 778px;
+    flex-shrink: 0;
+
+
+
+
+
+    /* İki metin arasında 48 piksel boşluk ekler */
+}
+
+.navbar-nav {
+    padding-right: 120px;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    margin: 0;
+}
